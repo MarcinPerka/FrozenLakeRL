@@ -1,6 +1,7 @@
 # Frozen Lake Reinforcement Learning
 Implementation of Reinforcement Learning algorithms in 
-Open AI Gym Frozen Lake environment.
+Open AI Gym Frozen Lake environment (https://gym.openai.com/envs/FrozenLake-v0/)
+<br/>
 Scripts uses temporal-differences methods:
 <ul>
 <li>Q-Learning</li>
