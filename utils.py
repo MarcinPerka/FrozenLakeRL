@@ -11,6 +11,7 @@ def generate_plt(data, y_label, x_label="Training Episodes"):
     plt.plot(data)
     plt.show()
 
+
 # Modyfikacja nagrody frozen lake powoduje, że agent wydajniej się uczy. Porażka daje mu negatywny sygnał zamiast
 # neutralnego - 0.0 nagroda.
 def modify_reward(reward, done):
