@@ -18,7 +18,7 @@ class LinearNetworkWithTwoHiddenLayers(torch.nn.Module):
 
 
 class LinearNetworkWithOneHiddenLayer(torch.nn.Module):
-    def __init__(self, state_space, action_space, hidden_nodes=64, learning_rate=1e-4):
+    def __init__(self, state_space, action_space, hidden_nodes=100, learning_rate=0.001):
         super(LinearNetworkWithOneHiddenLayer, self).__init__()
         self.model = torch.nn.Sequential(
             torch.nn.Linear(state_space, hidden_nodes),
