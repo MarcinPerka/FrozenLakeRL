@@ -2,7 +2,7 @@ import gym
 import torch
 import random
 from gym.envs.registration import register
-from utils import generate_plt, modify_reward, decrease_epsilon_with_large_num_of_epochs, TypeOfAlgortihm
+from frozenlake.utils import generate_plt, modify_reward, decrease_epsilon_with_large_num_of_epochs, TypeOfAlgortihm
 
 
 # Q(s,a) = Q(s,a) + a * (reward + y*Q(s',a') - Q(s,a))

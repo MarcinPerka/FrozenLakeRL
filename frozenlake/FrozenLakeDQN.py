@@ -7,9 +7,9 @@ import torch
 from IPython.core.display import clear_output
 from gym.envs.registration import register
 
-from NeuralNetworks import LinearNetworkWithTwoHiddenLayers
-from utils import modify_reward, decrease_epsilon_with_large_num_of_epochs, generate_plt, TypeOfAlgortihm
-from ReplayMemory import ReplayMemory
+from frozenlake.NeuralNetworks import LinearNetworkWithTwoHiddenLayers
+from frozenlake.utils import modify_reward, decrease_epsilon_with_large_num_of_epochs, generate_plt, TypeOfAlgortihm
+from frozenlake.ReplayMemory import ReplayMemory
 
 
 # Funkcja eksploracja lub eksploatacja
